@@ -1,6 +1,40 @@
 
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.fullwidth {
+
+    width: 100%;
+   /* height: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+.scroll-bg {
+/*min-height: 50%;*/
+width: 100%;
+height: 500px;
+}
+.slider-image{
+
+width: 100%;
+height: 500px;
+
+}
+/*
+.fixed_bg {
+min-height: 100%;
+background-size: cover;
+background-attachment: fixed;
+
+}
+*/
+
 /* links 
 ---------------------------------------------------------------------- */
 a,
@@ -19,67 +53,7 @@ a:focus {
     color: #fdc501;
 }
 
-/* Typography
---------------------------------------------------------------------- */
-/*h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "raleway-heavy", sans-serif;
-    color: #FFFFFF;
-    font-style: normal;
-    text-rendering: optimizeLegibility;
-    margin: 18px 0 15px;
-}
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    font-weight: inherit;
-}
-
-h1 {
-    font-size: 30px;
-    line-height: 36px;
-    margin-top: 0;
-    letter-spacing: -1px;
-}
-
-h2 {
-    font-size: 24px;
-    line-height: 30px;
-}
-
-h3 {
-    font-size: 20px;
-    line-height: 30px;
-}
-
-h4 {
-    font-size: 17px;
-    line-height: 30px;
-}
-
-h5 {
-    font-size: 14px;
-    line-height: 30px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-h6 {
-    font-size: 13px;
-    line-height: 30px;
-    margin-top: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}*/
 /* Lists  
 --------------------------------------------------------------------- */
 ul,
@@ -438,6 +412,13 @@ ul#nav li.current a:after {
     }
 
 }
+/*.bg_img_1, .slider-image {
+
+width: 100%;
+height: 700px;
+
+
+   }*/
 
 /* make sure the menu is visible on larger screens
 --------------------------------------------------------------------- */
@@ -449,11 +430,15 @@ ul#nav li.current a:after {
 }
 
 /*image slider*/
+
+
+
+
 .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 90%;
     top: 0px;
     left: 0px;
     z-index: 0;
@@ -826,7 +811,8 @@ ul#nav li.current a:after {
  #more {
     position: absolute;
     left: 50%;
-    bottom: -27px;
+    top: 40%;
+   /* bottom: -5px;*/
     margin-left: 250px;
 }
 #more a {
@@ -867,3 +853,21 @@ ul#nav li.current a:after {
     }
 
 }
+
+/* the portfolio /projects*/ 
+.about {
+width: 100%;
+height: 800px;
+/*background-color: #111417;*/
+background-color: black;
+
+ /*background: #111417;*/
+ border-bottom: 1px solid #15191d; 
+
+}
+.two {
+width: 100%;
+height: 600px;
+
+}
+
