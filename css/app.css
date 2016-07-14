@@ -932,12 +932,12 @@ figure.snip0021 {
 
   float: left;
   overflow: hidden;
-  /*margin: 10px 1%;*/
+/*  margin: 10px 1%;*/
   min-width: 270px;
   max-width: 330px;
   max-height: 270px;
   width: 100%;
- /* background: #000000;*/
+  background: #000000;
   text-align: center;
 }
 figure.snip0021 * {
@@ -949,6 +949,7 @@ figure.snip0021 img {
   width: 100%;
   height: 400px;
   -webkit-transition: opacity 0.35s;
+  -moz-transition:opacity 0.35s;
   transition: opacity 0.35s;
 }
 figure.snip0021 figcaption {
@@ -1107,7 +1108,7 @@ figure.snip0021.hover figcaption .curl {
 }
 .service  {
  width: 100%;
-    height: 200px;
+    height: 500px;
        background-color: #111417;
 position: absolute;
 padding-top: 8%;
@@ -1116,22 +1117,28 @@ padding-top: 8%;
 
 /*the box columns */
 
+.box-row{
 
+padding-right: 2%;
+  padding-left: 2%;
+
+}
 
 .box-content {
   padding: 20px;
    color: whitesmoke;
    font-family: 'Oswald', sans-serif;
-
 }
+
 
 .box-cell {
   margin-bottom: 10px;
+   /* display: inline-block;*/
+ float: left;
+ display: block;
+
 
 }
-
-  
-
 .head {
 
     color: #fdc501;
