@@ -10,7 +10,7 @@
 .fullwidth {
 
     width: 100%;
-   /* height: 100%;*/
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     max-width: initial;
@@ -857,7 +857,8 @@ height: 700px;
 /* the portfolio /projects*/ 
 .about {
 width: 100%;
-height: 900px;
+
+height: 1000px;
 background-color: #111417;
 
 position: absolute;
@@ -867,7 +868,7 @@ position: absolute;
 }
 .two {
 width: 100%;
-height: 900px;
+height: auto;
 padding-top: 2%;
 position: absolute;
 
@@ -1095,4 +1096,75 @@ figure.snip0021.hover figcaption .curl {
   height: 40px;
   -webkit-transition-delay: 0.7s;
   transition-delay: 0.7s;
+}
+/* ABOUT US ROW */
+.about-us {
+    width: 100%;
+    height: 200px;
+    background-color: #111417;
+/*position: absolute;*/
+
+}
+.service  {
+ width: 100%;
+    height: 200px;
+       background-color: #111417;
+position: absolute;
+padding-top: 8%;
+
+}
+
+/*the box columns */
+
+
+
+.box-content {
+  padding: 20px;
+   color: whitesmoke;
+   font-family: 'Oswald', sans-serif;
+
+}
+
+.box-cell {
+  margin-bottom: 10px;
+
+}
+
+  
+
+.head {
+
+    color: #fdc501;
+        text-transform: uppercase;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+}
+@media only screen and (min-width: 720px) {
+  .boxes {
+    display: table;
+    width: 100%;
+  }
+
+  .box-row {
+    display: table-row;
+  }
+
+  .box-cell {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.333333333%;
+
+    &.one {
+      border-right: 5px solid #fff;
+    }
+
+    &.two {
+      border-left: 5px solid #fff;
+      border-right: 5px solid #fff;
+    }
+
+    &.three {
+      border-left: 5px solid #fff;
+    }
+  }
 }
