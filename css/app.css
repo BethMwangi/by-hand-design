@@ -105,7 +105,7 @@ header.opaque {
 }
 
 /* header logo */
-header .logo {
+header.logo {
     background: #fdc501;
     float: left;
     width: auto;
@@ -1501,6 +1501,152 @@ input[type="email"],
 .oldie #submit-loader .text-loader {
     display: block;
 }
+p.lead {
+    font: 20px/36px "merriweather-light", serif;
+    color: #707273;
+}
+/* Style Placeholder Text  
+--------------------------------------------------------------------- */
+::-webkit-input-placeholder {
+    color: #12151B;
+}
+
+:-moz-placeholder {
+
+    /* Firefox 18- */
+    color: #12151B;
+}
+
+::-moz-placeholder {
+
+    /* Firefox 19+ */
+    color: #12151B;
+}
+
+:-ms-input-placeholder {
+    color: #12151B;
+}
+
+.placeholder {
+    color: #12151B !important;
+}
+
+/* 04. =forms
+/* =================================================================== */
+
+form {
+    margin-bottom: 30px;
+}
+
+fieldset {
+    margin: 0 0 30px 0;
+    padding: 0;
+    border: none;
+}
+
+input,
+button {
+    -webkit-font-smoothing: antialiased;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+    display: block;
+    padding: 18px 20px;
+    margin: 0 0 12px 0;
+    border: 0;
+    outline: none;
+    vertical-align: middle;
+    color: #a3a4a6;
+    font-family: "raleway-bold", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 3px;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    min-height: 252px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.button,
+.button:visited,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    font: 16px/30px "raleway-heavy", sans-serif;
+    padding: 9px 16px;
+    margin: 0 3px 6px 0;
+    background: #fdc501;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    height: auto;
+    text-align: center;
+    border: none;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: inherit;
+    border-radius: 3px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    color: #FFFFFF;
+    background: #e64e04;
+}
+
+label,
+legend {
+    font: 15px/30px "raleway-bold", sans-serif;
+    margin: 12px 0;
+    color: #252525;
+    display: block;
+}
+
+label span,
+legend span {
+    color: #575859;
+    font: 16px/30px "raleway-bold", sans-serif;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    font-size: 15px;
+    color: #575859;
+}
+
+input[type="checkbox"] {
+    display: inline;
+}
+
 
 /* loader animation 
 ------------------------------------------- */
